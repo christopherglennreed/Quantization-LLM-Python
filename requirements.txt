@@ -1,0 +1,19 @@
+# Core dependencies
+torch>=2.0.0
+transformers>=4.35.0
+accelerate>=0.20.0
+
+# llmcompressor (you may need to install from source or a specific version)
+llmcompressor>=0.16.0
+
+# Optional: for FP8 support or custom tensor formats
+safetensors>=0.3.1
+
+# Calibration datasets and CLI
+datasets>=2.10.0
+
+# For compatibility with some older versions that might not have certain methods
+packaging>=23.0
+
+# CLI usage
+argparse; python_version<'3.10'
